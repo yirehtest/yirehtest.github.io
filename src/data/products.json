@@ -1,0 +1,119 @@
+[
+  {
+    "id": 0,
+    "name": "Tijera de cocina",
+    "description": "Para cortar alimentos varios.",
+    "type": "Cocina",
+    "price": "20",
+    "pictures": {
+      "main": "https://lh3.google.com/u/0/d/1F5CnCVb6rS4j4X_SQImdsxVq1NBUTukj=w1920-h953-iv1",
+      "extras": ["", ""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 1,
+    "name": "Nevera Haier",
+    "description": "Esto es una nevera fina2",
+    "type": "Electrodomésticos",
+    "price": "400",
+    "pictures": {
+      "main": "https://la-verdad.misanunciosweb.com/imagenes_clasificados/pub_19944/Th_1_19944.jpg",
+      "extras": ["", ""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 2,
+    "name": "Nevera Haier",
+    "description": "Esto es una nevera fina3",
+    "type": "Electrodomésticos",
+    "price": "400",
+    "pictures": {
+      "main": "https://la-verdad.misanunciosweb.com/imagenes_clasificados/pub_19944/Th_1_19944.jpg",
+      "extras": ["", ""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 3,
+    "name": "Mueble con puff",
+    "description": "Mueble de cuerina en excelente estado. Poco uso",
+    "type": "Muebles",
+    "price": "400",
+    "pictures": {
+      "main": "https://la-verdad.misanunciosweb.com/imagenes_clasificados/pub_19944/Th_1_19944.jpg",
+      "extras": ["", ""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 4,
+    "name": "Nevera Haier",
+    "description": "Esto es una nevera fina5",
+    "type": "Electrodomésticos",
+    "price": "400",
+    "pictures": {
+      "main": "https://la-verdad.misanunciosweb.com/imagenes_clasificados/pub_19944/Th_1_19944.jpg",
+      "extras": ["", ""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 5,
+    "name": "Exprimidora",
+    "description": "Especial para exprimir naranjas. Acero inoxidable.",
+    "type": "Cocina",
+    "price": "12",
+    "pictures": {
+      "main": "https://lh3.google.com/u/0/d/1cZ9QWN01Jz_zZ-34UWXAnXcOV7ZnvCRU=w2000-h3548-iv1",
+      "extras": ["", ""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 6,
+    "name": "Bastón",
+    "description": "Bastón con muy poco uso, con altura ajustable, de la más excelente calidad",
+    "type": "Equipos médicos",
+    "price": "60",
+    "pictures": {
+      "main": "https://lh3.google.com/u/0/d/11pW1d55HdeYTLlb2hxRz_6wK2VU1Qieu=w2000-h1214-iv1",
+      "extras": ["", ""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 7,
+    "name": "Tobillera de rehabilitación",
+    "description": "Poco uso",
+    "type": "Equipos médicos",
+    "price": "15",
+    "pictures": {
+      "main": "https://lh3.google.com/u/0/d/1Jmhugxhy24PyXgaKfdo8W4m46QDIYqqT=w1920-h953-iv1",
+      "extras": ["", ""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 8,
+    "name": "Set de vasos y jarra Renaware",
+    "description": "Garantía de por vida por Renaware.",
+    "type": "Cocina",
+    "price": "250",
+    "pictures": {
+      "main": "https://lh3.google.com/u/0/d/1AunO8yniaRIHxmyoVjjpIh6FxCr3sGAA=w1920-h953-iv1",
+      "extras": ["", ""]
+    },
+    "condition": "Usado",
+    "availability": true
+  }
+]
