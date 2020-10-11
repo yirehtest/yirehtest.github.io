@@ -2,7 +2,7 @@
   "name": "sales-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yirehtest.github.io/main",
+  "homepage": "http://yirehtest.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
