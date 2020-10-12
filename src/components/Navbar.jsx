@@ -13,14 +13,6 @@ import couch from "../assets/icons/couch.svg";
 import kids from "../assets/icons/kids.svg";
 
 const Navbar = () => {
-  //   "Cocina",
-  //     "Decoración",
-  //     "Equipos médicos",
-  //     "Electrodomésticos",
-  //     "Electrónicos",
-  //     "Ferretería",
-  //     "Muebles",
-  //     "Niños";
   const categoriesArr = [
     {
       link: "#Cocina",
@@ -63,10 +55,10 @@ const Navbar = () => {
       name: "Niños",
     },
   ];
-  const categoriesMap = categoriesArr.map((category) => {
+  const categoriesMap = categoriesArr.map((category, i) => {
     const { link, icon, name } = category;
     return (
-      <IconCont>
+      <IconCont key={i}>
         <a href={link}>
           <img src={icon} alt={name} />
         </a>
@@ -83,7 +75,7 @@ const iconContPC = mediaQuerie(`
     background-color: blue;
   }
  img {
-    width: 50px;
+    width: 35px;
   }
 `);
 const IconCont = styled.div`

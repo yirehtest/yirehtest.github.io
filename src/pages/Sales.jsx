@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Button, Container, Hero } from "react-bulma-components/dist";
 import { H1, CatergoryTitle } from "components/Texts";
@@ -6,8 +6,16 @@ import { H1, CatergoryTitle } from "components/Texts";
 // import Product from "../components/Product";
 import Category from "../components/Category";
 import Navbar from "components/Navbar";
+import Buy from "components/Buy";
 
 const Sales = ({ products, categories }) => {
+  const [isModal, setisModal] = useState(false);
+
+  const toogleModal = () => {
+    console.log("modal buy click");
+    setisModal(!isModal);
+  };
+
   const total = products.reduce(
     (acc, value) => parseInt(acc.price || acc, 10) + parseInt(value.price, 10)
   );
@@ -35,6 +43,7 @@ const Sales = ({ products, categories }) => {
   return (
     <MainLayout>
       <Navbar />
+      <Buy show={isModal} toogleModal={toogleModal} />
       <Container>
         <Hero>
           <div className="hero-body">
@@ -45,8 +54,8 @@ const Sales = ({ products, categories }) => {
         </Hero>
         <CategoryContainer>{filteredCategoriesMap}</CategoryContainer>
 
-        <BuyFixedContainer>
-          <Button className="button is-primary">Comprar</Button>
+        <BuyFixedContainer onClick={toogleModal}>
+          <Button className="button is-fullwidth is-info">Comprar</Button>
         </BuyFixedContainer>
       </Container>
     </MainLayout>
@@ -75,7 +84,7 @@ const BuyFixedContainer = styled.div`
   bottom: 20px;
   right: 20px;
   position: fixed;
-  bottom: 51px;
+  bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
 
@@ -84,7 +93,8 @@ const BuyFixedContainer = styled.div`
 
   @media (min-width: 800px) {
     height: 0;
-    width: 0;
+    width: 200px;
+    bottom: 50px;
   }
 `;
 export default Sales;

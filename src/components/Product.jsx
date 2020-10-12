@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Container } from "react-bulma-components/dist";
 import styled from "styled-components";
+import Modal from "./Modal";
 
 const Product = ({ product }) => {
   const [isModal, setisModal] = useState(false);
@@ -32,8 +33,8 @@ const Product = ({ product }) => {
   const myImg = <IMG src={image} alt={name} />;
   return (
     <>
-      {isModal && availability && (
-        <Modal id="Modal" toogleModal={toogleModal}>
+      {availability && (
+        <Modal id="ModalProduct" show={isModal} toogleModal={toogleModal}>
           <Container style={{ margin: "auto" }}>
             <div className="columns">
               <div className="column">
@@ -109,10 +110,6 @@ const Product = ({ product }) => {
   );
 };
 
-const Modal = ({ children, toogleModal }) => {
-  return <ModalBack onClick={toogleModal}>{children}</ModalBack>;
-};
-
 const AvailableContainer = styled.p`
   position: absolute;
 
@@ -123,21 +120,6 @@ const AvailableContainer = styled.p`
   color: red;
   transform: rotateZ(43deg) translateX(-66%);
   top: 64%;
-`;
-const ModalBack = styled.div`
-  overflow: scroll;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
 `;
 
 const IMG = styled.img`
