@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
+import mediaQuerie from "helpers/mediaQuerie";
 import React, { useState } from "react";
 import { Container } from "react-bulma-components/dist";
 import styled from "styled-components";
@@ -109,17 +110,23 @@ const Product = ({ product }) => {
     </>
   );
 };
-
+const AvailableContainerpc = mediaQuerie(`
+ top: 64%;
+  font-size: 125px;
+`);
 const AvailableContainer = styled.p`
   position: absolute;
 
+  font-size: 92px;
+  top: 39%;
+
   left: 50%;
-  font-size: 125px;
   z-index: 20;
   font-weight: bold;
   color: red;
   transform: rotateZ(43deg) translateX(-66%);
-  top: 64%;
+
+  ${AvailableContainerpc}
 `;
 
 const IMG = styled.img`
