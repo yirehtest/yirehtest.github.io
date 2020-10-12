@@ -5,6 +5,7 @@ import { H1, CatergoryTitle } from "components/Texts";
 
 // import Product from "../components/Product";
 import Category from "../components/Category";
+import Navbar from "components/Navbar";
 
 const Sales = ({ products, categories }) => {
   const total = products.reduce(
@@ -20,7 +21,7 @@ const Sales = ({ products, categories }) => {
       <div key={i}>
         <div
           id={`${products[0].type.replace(" ", "_")}`}
-          style={{ marginTop: "40px" }}
+          style={{ padding: "60px 0 20px 0" }}
         >
           <CatergoryTitle>{products[0].type}</CatergoryTitle>
         </div>
@@ -32,22 +33,35 @@ const Sales = ({ products, categories }) => {
   });
 
   return (
-    <Container>
-      <Hero>
-        <div className="hero-body">
-          <Container>
-            <H1>Venta de garage online</H1>
-          </Container>
-        </div>
-      </Hero>
-      <CategoryContainer>{filteredCategoriesMap}</CategoryContainer>
+    <MainLayout>
+      <Navbar />
+      <Container>
+        <Hero>
+          <div className="hero-body">
+            <Container>
+              <H1>Venta de garage online</H1>
+            </Container>
+          </div>
+        </Hero>
+        <CategoryContainer>{filteredCategoriesMap}</CategoryContainer>
 
-      <BuyFixedContainer>
-        <Button className="button is-primary">Comprar</Button>
-      </BuyFixedContainer>
-    </Container>
+        <BuyFixedContainer>
+          <Button className="button is-primary">Comprar</Button>
+        </BuyFixedContainer>
+      </Container>
+    </MainLayout>
   );
 };
+
+const MainLayout = styled.div`
+  overflow: scroll;
+  width: 100vw;
+  height: 100vh;
+  padding-top: ${({ theme }) => theme.nav.size.mobile};
+  @media (min-width: 800px) {
+    padding-top: ${({ theme }) => theme.nav.size.pc};
+  }
+`;
 
 const CategoryContainer = styled(Container)`
   margin-top: 40px;
@@ -71,9 +85,6 @@ const BuyFixedContainer = styled.div`
   @media (min-width: 800px) {
     height: 0;
     width: 0;
-    top: 16px;
-    left: 64px;
-    transform: translateX(0);
   }
 `;
 export default Sales;
