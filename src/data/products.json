@@ -81,7 +81,7 @@
       "extras": ["", ""]
     },
     "condition": "Usado",
-    "availability": true
+    "availability": false
   },
   {
     "id": 6,
