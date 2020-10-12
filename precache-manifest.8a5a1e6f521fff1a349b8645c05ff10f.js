@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a82341a1ba223470d2aa08a7522a6370",
+    "revision": "a441a8bd5968e7a0ea989d5d04ac6ba6",
     "url": "/index.html"
   },
   {
-    "revision": "71c25c54ed15209c377e",
+    "revision": "30a6be5ed8d169822d10",
     "url": "/static/css/2.0111e717.chunk.css"
   },
   {
-    "revision": "ad19dacd2ab20408a3d7",
+    "revision": "ffd39b917f429d05c0d9",
     "url": "/static/css/main.9f3498cf.chunk.css"
   },
   {
-    "revision": "71c25c54ed15209c377e",
-    "url": "/static/js/2.cfe7ad62.chunk.js"
+    "revision": "30a6be5ed8d169822d10",
+    "url": "/static/js/2.3e9afaf6.chunk.js"
   },
   {
     "revision": "6c5833db93cd7c0f813219a8bc75480b",
-    "url": "/static/js/2.cfe7ad62.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3e9afaf6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad19dacd2ab20408a3d7",
-    "url": "/static/js/main.65ae9474.chunk.js"
+    "revision": "ffd39b917f429d05c0d9",
+    "url": "/static/js/main.33cee403.chunk.js"
   },
   {
     "revision": "f58efaeb893aca0e274c",
@@ -80,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cortapizza.b3bd0eb0.jpg"
   },
   {
+    "revision": "808b22dc682ff1ba792e86e3b51751dc",
+    "url": "/static/media/couch.808b22dc.svg"
+  },
+  {
     "revision": "c0982160fed8e35d61ce9749a8ab49fe",
     "url": "/static/media/cuchillos.c0982160.jpg"
   },
@@ -104,6 +108,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/exprimidor.a8385636.jpg"
   },
   {
+    "revision": "fa619e0a81725735e0a658b5bbcb99ac",
+    "url": "/static/media/fridge.fa619e0a.svg"
+  },
+  {
+    "revision": "6f708967c6f042db1a2f50dcc44885e3",
+    "url": "/static/media/hammer.6f708967.svg"
+  },
+  {
+    "revision": "37bef72a3e0689250bcebb3aee280399",
+    "url": "/static/media/home.37bef72a.svg"
+  },
+  {
+    "revision": "cbaebfea226dff06c4f1384cd29aefa0",
+    "url": "/static/media/hospital.cbaebfea.svg"
+  },
+  {
     "revision": "75ad557e53e743770eae8573e85cb8c4",
     "url": "/static/media/jarra.75ad557e.jpg"
   },
@@ -118,6 +138,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "62be6260c28a59426dd6d58f349ed101",
     "url": "/static/media/juegotepirata.62be6260.jpg"
+  },
+  {
+    "revision": "f7c8b85be2d744e8e2df146400139a4c",
+    "url": "/static/media/kids.f7c8b85b.svg"
+  },
+  {
+    "revision": "0c25990aeac5da721bfe083d54757ed9",
+    "url": "/static/media/knife.0c25990a.svg"
   },
   {
     "revision": "6c43fbd0af4345c60bbac2e5103bb65b",
@@ -178,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c76719d6f5bfc9e70d4ba6899a310874",
     "url": "/static/media/planchausada2.c76719d6.jpg"
+  },
+  {
+    "revision": "50f6d5f565e6becc31e2215c7c5e1565",
+    "url": "/static/media/plug.50f6d5f5.svg"
   },
   {
     "revision": "ce451f309040cfb991c1ef28f643bdc4",
