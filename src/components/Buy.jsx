@@ -14,29 +14,18 @@ const Buy = ({ show, toogleModal }) => {
             <H2>Lee a continuacion:</H2>
             <P1>
               Debes contactarnos por whatsapp +584241802341 para reservar tu
-              compra.
+              compra e informarnos forma de pago.
             </P1>
             <H2>Formas de pago:</H2>
             <ol>
               <li className="is-size-4 is-size-5-mobile">
                 Dolares en efectivo
               </li>
+              <li className="is-size-4 is-size-5-mobile">Zelle.</li>
+              <li className="is-size-4 is-size-5-mobile">Paypal</li>
+              <li className="is-size-4 is-size-5-mobile">Pago movil</li>
               <li className="is-size-4 is-size-5-mobile">
-                Zelle:{" "}
-                <a href="mailto:anakari182@gmail.com">anakari182@gmail.com</a>
-              </li>
-              <li className="is-size-4 is-size-5-mobile">
-                Paypal (tiene el recargo de la comisión de paypal){" "}
-                <a href="https://paypal.me/MCJO" target="_blank">
-                  paypal.me/MCJO
-                </a>
-              </li>
-              <li className="is-size-4 is-size-5-mobile">
-                Pago movil: 04169380074 Mercantil (0105) CI 16032309
-              </li>
-              <li className="is-size-4 is-size-5-mobile">
-                Transferencia Mercantil a nombre de Jainer Munoz CI 16032309
-                corriente 0105 0035 46 1035 4637 84
+                Transferencia Mercantil
               </li>
             </ol>
           </div>
@@ -45,7 +34,26 @@ const Buy = ({ show, toogleModal }) => {
     </Modal>
   );
 };
-
+// <li className="is-size-4 is-size-5-mobile">
+//               Dolares en efectivo
+//             </li>
+//             <li className="is-size-4 is-size-5-mobile">
+//               Zelle:{" "}
+//               <a href="mailto:anakari182@gmail.com">anakari182@gmail.com</a>
+//             </li>
+//             <li className="is-size-4 is-size-5-mobile">
+//               Paypal (tiene el recargo de la comisión de paypal){" "}
+//               <a href="https://paypal.me/MCJO" target="_blank">
+//                 paypal.me/MCJO
+//               </a>
+//             </li>
+//             <li className="is-size-4 is-size-5-mobile">
+//               Pago movil: 04169380074 Mercantil (0105) CI 16032309
+//             </li>
+//             <li className="is-size-4 is-size-5-mobile">
+//               Transferencia Mercantil a nombre de Jainer Munoz CI 16032309
+//               corriente 0105 0035 46 1035 4637 84
+//             </li>
 const BuyLayoutPc = mediaQuerie(`
    margin-bottom: 0;
 
