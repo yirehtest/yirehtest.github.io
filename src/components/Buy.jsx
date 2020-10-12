@@ -46,11 +46,20 @@ const Buy = ({ show, toogleModal }) => {
   );
 };
 
+const BuyLayoutPc = mediaQuerie(`
+   margin-bottom: 0;
+
+  
+`);
+
 const BuyLayout = styled.div`
-  padding: 20px 10px;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 70px;
+
+  ${BuyLayoutPc}
 `;
 const BuyContainerPc = mediaQuerie(`
   width:50vw;
