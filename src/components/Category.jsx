@@ -4,16 +4,13 @@ import { Container } from "react-bulma-components/dist";
 import Product from "../components/Product";
 
 const Category = ({ products }) => {
-  console.log("category", products);
-
   const productsMap = [];
+  const len = products.length;
 
-  const iterations = Math.ceil(products.length / 3);
-  const residuo = products.length % 3;
-  console.log({ iterations, residuo });
+  const iterations = Math.ceil(len / 3);
+  const residuo = len % 3;
 
-  for (let index = 0; index < iterations; index = index + 3) {
-    console.log({ index, iterations });
+  for (let index = 0; index < len; index = index + 3) {
     productsMap.push(
       <Container key={index}>
         <div className="columns">
@@ -32,12 +29,7 @@ const Category = ({ products }) => {
       </Container>
     );
   }
-  console.log(
-    "products.length  - residuo",
-    products.length - residuo,
-    products.length,
-    { productsMap }
-  );
+
   const lastProducts = [];
   if (residuo && iterations > 1) {
     for (
@@ -52,13 +44,12 @@ const Category = ({ products }) => {
       );
     }
   }
-  console.log({ lastProducts, residuo, iterations });
   return (
     <>
       {productsMap}
-      <Container>
+      {/* <Container>
         <div className="columns">{lastProducts}</div>
-      </Container>
+      </Container> */}
     </>
   );
 };

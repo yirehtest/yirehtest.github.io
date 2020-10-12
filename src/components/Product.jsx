@@ -1,12 +1,12 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useState } from "react";
-import { Card, Container } from "react-bulma-components/dist";
+import { Container } from "react-bulma-components/dist";
 import styled from "styled-components";
 
 const Product = ({ product }) => {
   const [isModal, setisModal] = useState(false);
 
   const toogleModal = () => {
-    console.log("on Click", isModal);
     setisModal(!isModal);
   };
 
@@ -14,16 +14,22 @@ const Product = ({ product }) => {
     return null;
   }
 
-  console.log("Product", { isModal });
-  const { name, description, price, condition, availability } = product;
+  const {
+    name,
+    description,
+    price,
+    type,
+    condition,
+    availability,
+    video,
+  } = product;
   const { main } = product.pictures;
 
-  const myImg = (
-    <IMG
-      src={main || "https://bulma.io/images/placeholders/1280x960.png"}
-      alt="Placeholder image"
-    />
-  );
+  const image = main.match("http")
+    ? main
+    : require("../assets/" + main + ".jpg");
+
+  const myImg = <IMG src={image} alt={name} />;
   return (
     <>
       {isModal && availability && (
@@ -49,6 +55,13 @@ const Product = ({ product }) => {
                     <div className="content">
                       <p>{description}</p>
                     </div>
+                    {video && (
+                      <div className="content">
+                        <a href={video} target="_blank">
+                          Ver video
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -80,6 +93,16 @@ const Product = ({ product }) => {
           <div className="content">
             <p>{description}</p>
           </div>
+          <div className="content">
+            <p>{`#${type}`}</p>
+          </div>
+          {video && (
+            <div className="content">
+              <a href={video} target="_blank">
+                Ver video
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </>

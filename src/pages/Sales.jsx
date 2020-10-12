@@ -7,20 +7,17 @@ import { H1, CatergoryTitle } from "components/Texts";
 import Category from "../components/Category";
 
 const Sales = ({ products, categories }) => {
+  const total = products.reduce(
+    (acc, value) => parseInt(acc.price || acc, 10) + parseInt(value.price, 10)
+  );
+  console.log({ total });
   const filteredCategories = categories.map((category) => {
     const filtered = products.filter((product) => product.type === category);
     return filtered;
   });
-  console.log({ filteredCategories });
   const filteredCategoriesMap = filteredCategories.map((products, i) => {
-    console.log(
-      "filteredCategories",
-      products,
-      typeof products,
-      products.length
-    );
     return products.length ? (
-      <>
+      <div key={i}>
         <div style={{ marginTop: "40px" }}>
           <CatergoryTitle id={`{products[0].type}`}>
             {products[0].type}
@@ -29,7 +26,7 @@ const Sales = ({ products, categories }) => {
         <div style={{ marginTop: "20px" }}>
           <Category key={i} products={products} />
         </div>
-      </>
+      </div>
     ) : null;
   });
 

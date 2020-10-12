@@ -1,39 +1,42 @@
 [
   {
     "id": 0,
-    "name": "Tijera de cocina",
-    "description": "Para cortar alimentos varios.",
-    "type": "Cocina",
-    "price": "20",
+    "name": "Procesador de alimentos",
+    "description": "Procesador de alimentos con poco uso, rayador y picador. Video de referencia.",
+    "type": "Electrodomésticos",
+    "price": "15",
+    "video": "https://www.youtube.com/watch?v=qS7jwpIPmqk&ab_channel=Davehalverson",
     "pictures": {
-      "main": "https://lh3.google.com/u/0/d/1F5CnCVb6rS4j4X_SQImdsxVq1NBUTukj=w1920-h953-iv1",
+      "main": "procesador_alimentos",
       "extras": ["", ""]
     },
-    "condition": "Nuevo",
+    "condition": "Usado",
     "availability": true
   },
   {
     "id": 1,
-    "name": "Nevera Haier",
-    "description": "Esto es una nevera fina2",
+    "name": "Rebanadora",
+    "description": "Rebanadora de embutidos marca waring pro.",
     "type": "Electrodomésticos",
-    "price": "400",
+    "price": "130",
+    "video": "https://www.youtube.com/watch?v=KUqetZjhn2o&ab_channel=BlakeAdams",
     "pictures": {
-      "main": "https://la-verdad.misanunciosweb.com/imagenes_clasificados/pub_19944/Th_1_19944.jpg",
-      "extras": ["", ""]
+      "main": "rebanadora",
+      "extras": ["rebanadora2"]
     },
     "condition": "Nuevo",
     "availability": true
   },
   {
     "id": 2,
-    "name": "Nevera Haier",
-    "description": "Esto es una nevera fina3",
+    "name": "NUEVA!!! Nevera Haier",
+    "description": "Nuevo en su caja. Modelo HRF 339 de 12 pies cúbicos.",
     "type": "Electrodomésticos",
     "price": "400",
+    "video": false,
     "pictures": {
-      "main": "https://la-verdad.misanunciosweb.com/imagenes_clasificados/pub_19944/Th_1_19944.jpg",
-      "extras": ["", ""]
+      "main": "nevera",
+      "extras": ["nevera2"]
     },
     "condition": "Nuevo",
     "availability": true
@@ -44,21 +47,23 @@
     "description": "Mueble de cuerina en excelente estado. Poco uso",
     "type": "Muebles",
     "price": "400",
+    "video": false,
     "pictures": {
-      "main": "https://la-verdad.misanunciosweb.com/imagenes_clasificados/pub_19944/Th_1_19944.jpg",
-      "extras": ["", ""]
+      "main": "mueble",
+      "extras": ["mueble2", "mueble3"]
     },
-    "condition": "Nuevo",
+    "condition": "Usado",
     "availability": true
   },
   {
     "id": 4,
-    "name": "Nevera Haier",
-    "description": "Esto es una nevera fina5",
+    "name": "NUEVA!!! Batidora de Inmersión",
+    "description": "Batidora de Inmersión Oster. Dispone de un picatodo, vaso para jugo, cuchillo eléctrico y batidora. Potente motor de 350 watts - Color blanco.",
     "type": "Electrodomésticos",
-    "price": "400",
+    "price": "70",
+    "video": "https://www.youtube.com/watch?v=lSWCeWNCfTk&ab_channel=Shoptime",
     "pictures": {
-      "main": "https://la-verdad.misanunciosweb.com/imagenes_clasificados/pub_19944/Th_1_19944.jpg",
+      "main": "batidora350w",
       "extras": ["", ""]
     },
     "condition": "Nuevo",
@@ -66,12 +71,13 @@
   },
   {
     "id": 5,
-    "name": "Exprimidora",
+    "name": "Exprimidor",
     "description": "Especial para exprimir naranjas. Acero inoxidable.",
     "type": "Cocina",
     "price": "12",
+    "video": false,
     "pictures": {
-      "main": "https://lh3.google.com/u/0/d/1cZ9QWN01Jz_zZ-34UWXAnXcOV7ZnvCRU=w2000-h3548-iv1",
+      "main": "exprimidor",
       "extras": ["", ""]
     },
     "condition": "Usado",
@@ -83,6 +89,7 @@
     "description": "Bastón con muy poco uso, con altura ajustable, de la más excelente calidad",
     "type": "Equipos médicos",
     "price": "60",
+    "video": false,
     "pictures": {
       "main": "https://lh3.google.com/u/0/d/11pW1d55HdeYTLlb2hxRz_6wK2VU1Qieu=w2000-h1214-iv1",
       "extras": ["", ""]
@@ -96,6 +103,7 @@
     "description": "Poco uso",
     "type": "Equipos médicos",
     "price": "15",
+    "video": false,
     "pictures": {
       "main": "https://lh3.google.com/u/0/d/1Jmhugxhy24PyXgaKfdo8W4m46QDIYqqT=w1920-h953-iv1",
       "extras": ["", ""]
@@ -106,12 +114,223 @@
   {
     "id": 8,
     "name": "Set de vasos y jarra Renaware",
-    "description": "Garantía de por vida por Renaware.",
+    "description": "Garantía de por vida por Renaware. Se puede vender por separado. Vasos 25 c/u y jarra 100.",
     "type": "Cocina",
-    "price": "250",
+    "price": "200",
+    "video": false,
     "pictures": {
-      "main": "https://lh3.google.com/u/0/d/1AunO8yniaRIHxmyoVjjpIh6FxCr3sGAA=w1920-h953-iv1",
+      "main": "jarravasos",
       "extras": ["", ""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 9,
+    "name": "Abre lata eléctrico",
+    "description": "Marca Oster. Poco uso.",
+    "type": "Electrodomésticos",
+    "price": "20",
+    "video": false,
+    "pictures": {
+      "main": "abrelata",
+      "extras": ["", ""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 10,
+    "name": "Tostadora de pan",
+    "description": "Marca Black&decker. Poco uso.",
+    "type": "Electrodomésticos",
+    "price": "25",
+    "video": false,
+    "pictures": {
+      "main": "tostadora",
+      "extras": ["tostadora2"]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 11,
+    "name": "Arrocera eléctrica",
+    "description": "Marca FaberWare. Poco uso",
+    "type": "Electrodomésticos",
+    "price": "20",
+    "video": false,
+    "pictures": {
+      "main": "arrocera",
+      "extras": [""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 12,
+    "name": "Potes Renaware",
+    "description": "Garantía de por vida por Renaware. Poco uso. Se puede vender por separado. Té 20, azucar 40 y arroz 60",
+    "type": "Cocina",
+    "price": "120",
+    "video": false,
+    "pictures": {
+      "main": "potes2",
+      "extras": ["potes"]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 13,
+    "name": "Plancha de vapor",
+    "description": "Marca Kenmore",
+    "type": "Electrodomésticos",
+    "price": "10",
+    "video": false,
+    "pictures": {
+      "main": "planchausada",
+      "extras": ["planchausada2"]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 14,
+    "name": "NUEVA!!! Plancha de vapor ",
+    "description": "Marca Toastmaster",
+    "type": "Electrodomésticos",
+    "price": "18",
+    "video": false,
+    "pictures": {
+      "main": "plancha2",
+      "extras": ["plancha"]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 15,
+    "name": "NUEVOS Cuchillos Renaware ",
+    "description": "Garantía de por vida por Renaware. Juego de 6 cuchillos",
+    "type": "Cocina",
+    "price": "130",
+    "video": false,
+    "pictures": {
+      "main": "cuchillos",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 16,
+    "name": "NUEVA!!! Bandeja",
+    "description": "Bandeja de melanina resistente",
+    "type": "Cocina",
+    "price": "10",
+    "video": false,
+    "pictures": {
+      "main": "bandeja",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 17,
+    "name": "Coche paragua",
+    "description": "Para niños hasta 4 años",
+    "type": "Niños",
+    "price": "40",
+    "video": false,
+    "pictures": {
+      "main": "coche",
+      "extras": ["coche2"]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 18,
+    "name": "Rockola decorativa",
+    "description": "Buena para espacios en el hogar.",
+    "type": "Decoración",
+    "price": "100",
+    "video": false,
+    "pictures": {
+      "main": "rockola",
+      "extras": [""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 19,
+    "name": "Bancos para barra",
+    "description": "Giratorios y se pueden elevar a su gusto. Se puede vender por separado a 40 c/u.",
+    "type": "Muebles",
+    "price": "70",
+    "video": false,
+    "pictures": {
+      "main": "bancos",
+      "extras": [""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 20,
+    "name": "NUEVA!!! Andadera de deambular",
+    "description": "Andadera nueva para deambular, replegable, liviana y resistente.",
+    "type": "Equipos médicos",
+    "price": "45",
+    "video": false,
+    "pictures": {
+      "main": "andadera",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 21,
+    "name": "Escalera tres peldaños",
+    "description": "Poco uso",
+    "type": "Ferretería",
+    "price": "30",
+    "video": false,
+    "pictures": {
+      "main": "escalera",
+      "extras": [""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 22,
+    "name": "NUEVA!!! Jarra de vidrio",
+    "description": "Capacidad de 2lts, con asa y tapa.",
+    "type": "Cocina",
+    "price": "8",
+    "video": false,
+    "pictures": {
+      "main": "jarra",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 23,
+    "name": "Juego de te",
+    "description": "Tres piezas de cerámica fina.",
+    "type": "Cocina",
+    "price": "20",
+    "video": false,
+    "pictures": {
+      "main": "juegote",
+      "extras": [""]
     },
     "condition": "Usado",
     "availability": true
