@@ -18,10 +18,11 @@ const Sales = ({ products, categories }) => {
   const filteredCategoriesMap = filteredCategories.map((products, i) => {
     return products.length ? (
       <div key={i}>
-        <div style={{ marginTop: "40px" }}>
-          <CatergoryTitle id={`{products[0].type}`}>
-            {products[0].type}
-          </CatergoryTitle>
+        <div
+          id={`${products[0].type.replace(" ", "_")}`}
+          style={{ marginTop: "40px" }}
+        >
+          <CatergoryTitle>{products[0].type}</CatergoryTitle>
         </div>
         <div style={{ marginTop: "20px" }}>
           <Category key={i} products={products} />

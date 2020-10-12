@@ -27,7 +27,7 @@ const Product = ({ product }) => {
 
   const image = main.match("http")
     ? main
-    : require("../assets/" + main + ".jpg");
+    : require("../assets/compress/" + main + ".jpg");
 
   const myImg = <IMG src={image} alt={name} />;
   return (

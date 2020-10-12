@@ -91,7 +91,7 @@
     "price": "60",
     "video": false,
     "pictures": {
-      "main": "https://lh3.google.com/u/0/d/11pW1d55HdeYTLlb2hxRz_6wK2VU1Qieu=w2000-h1214-iv1",
+      "main": "baston",
       "extras": ["", ""]
     },
     "condition": "Usado",
@@ -105,7 +105,7 @@
     "price": "15",
     "video": false,
     "pictures": {
-      "main": "https://lh3.google.com/u/0/d/1Jmhugxhy24PyXgaKfdo8W4m46QDIYqqT=w1920-h953-iv1",
+      "main": "tobillera",
       "extras": ["", ""]
     },
     "condition": "Usado",
@@ -147,8 +147,8 @@
     "price": "25",
     "video": false,
     "pictures": {
-      "main": "tostadora",
-      "extras": ["tostadora2"]
+      "main": "tostadora2",
+      "extras": ["tostadora"]
     },
     "condition": "Usado",
     "availability": true
@@ -330,6 +330,202 @@
     "video": false,
     "pictures": {
       "main": "juegote",
+      "extras": [""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 24,
+    "name": "NUEVO!!! Rodillo giratorio",
+    "description": "Rodillo de madera liviano y cómodo. ",
+    "type": "Cocina",
+    "price": "10",
+    "video": false,
+    "pictures": {
+      "main": "rodillo",
+      "extras": ["rodillo2"]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 24,
+    "name": "NUEVO!!! Set de tomar el té",
+    "description": "Muy económico.",
+    "type": "Cocina",
+    "price": "3",
+    "video": false,
+    "pictures": {
+      "main": "juegotepirata",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 25,
+    "name": "Juego de comedor",
+    "description": "De 4 puestos y diseño moderno. Poco uso.",
+    "type": "Muebles",
+    "price": "220",
+    "video": false,
+    "pictures": {
+      "main": "comedor",
+      "extras": ["comedor2"]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 26,
+    "name": "NUEVAS!!! Tijeras de cocina",
+    "description": "Para picar pollo, carnes y uso general de la cocina.",
+    "type": "Cocina",
+    "price": "20",
+    "video": false,
+    "pictures": {
+      "main": "tirejas",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 27,
+    "name": "NUEVO!!! Pelapapas",
+    "description": "Completamente nuevo. Muy buen precio.",
+    "type": "Cocina",
+    "price": "15",
+    "video": false,
+    "pictures": {
+      "main": "pelapapa2",
+      "extras": ["pelapapa1"]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 28,
+    "name": "Descorchador con alas",
+    "description": "Muy buen precio.",
+    "type": "Cocina",
+    "price": "5",
+    "video": false,
+    "pictures": {
+      "main": "descorchador",
+      "extras": [""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 29,
+    "name": "NUEVAS!!! Juego de paletas de cocina",
+    "description": "Acero inoxidable.",
+    "type": "Cocina",
+    "price": "15",
+    "video": false,
+    "pictures": {
+      "main": "paletasacero",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 30,
+    "name": "NUEVAS!!! Juego de paletas de cocina",
+    "description": "Material melanina.",
+    "type": "Cocina",
+    "price": "6",
+    "video": false,
+    "pictures": {
+      "main": "paletas",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 31,
+    "name": "NUEVO!!! Cortador para pizza",
+    "description": "Nuevo, muy buen precio.",
+    "type": "Cocina",
+    "price": "8",
+    "video": false,
+    "pictures": {
+      "main": "cortapizza",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 32,
+    "name": "NUEVOS!!! Salero y pimentero",
+    "description": "Muy buen precio.",
+    "type": "Cocina",
+    "price": "8",
+    "video": false,
+    "pictures": {
+      "main": "salero",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 33,
+    "name": "Secador de pelo",
+    "description": "En perfecto estado.",
+    "type": "Electrodomésticos",
+    "price": "25",
+    "video": false,
+    "pictures": {
+      "main": "secador",
+      "extras": [""]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 34,
+    "name": "Olla Renaware 6lts",
+    "description": "Garantía de por vida por Renaware.",
+    "type": "Cocina",
+    "price": "80",
+    "video": false,
+    "pictures": {
+      "main": "olla2",
+      "extras": ["olla"]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 35,
+    "name": "Espejo con luz incorporada",
+    "description": "Funciona perfectamente.",
+    "type": "Electrónicos",
+    "price": "15",
+    "video": false,
+    "pictures": {
+      "main": "espejo",
+      "extras": ["espejo2"]
+    },
+    "condition": "Usado",
+    "availability": true
+  },
+  {
+    "id": 36,
+    "name": "Cornetas PC",
+    "description": "Marca Lenovo.",
+    "type": "Electrónicos",
+    "price": "15",
+    "video": false,
+    "pictures": {
+      "main": "cornetaspc",
       "extras": [""]
     },
     "condition": "Usado",
