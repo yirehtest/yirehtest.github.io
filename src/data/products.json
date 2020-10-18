@@ -76,6 +76,7 @@
     "type": "Cocina",
     "price": "12",
     "video": false,
+    "metadata": { "comprador": "Carolina Valera", "status": "reservado" },
     "pictures": {
       "main": "exprimidor",
       "extras": ["", ""]
@@ -347,7 +348,8 @@
       "extras": ["rodillo2"]
     },
     "condition": "Nuevo",
-    "availability": true
+    "availability": false,
+    "metadata": { "comprador": "Carolina Valera", "status": "reservado" }
   },
   {
     "id": 24,
