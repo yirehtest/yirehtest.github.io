@@ -76,7 +76,7 @@
     "type": "Cocina",
     "price": "12",
     "video": false,
-    "metadata": { "comprador": "Carolina Valera", "status": "reservado" },
+    "metadata": { "comprador": "Carolina Valera", "status": "pagado" },
     "pictures": {
       "main": "exprimidor",
       "extras": ["", ""]
@@ -166,7 +166,8 @@
       "extras": [""]
     },
     "condition": "Usado",
-    "availability": true
+    "availability": false,
+    "metadata": { "comprador": "Yenny zerpa", "status": "apartado" }
   },
   {
     "id": 12,
@@ -349,7 +350,7 @@
     },
     "condition": "Nuevo",
     "availability": false,
-    "metadata": { "comprador": "Carolina Valera", "status": "reservado" }
+    "metadata": { "comprador": "Carolina Valera", "status": "pagado" }
   },
   {
     "id": 24,
