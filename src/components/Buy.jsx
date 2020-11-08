@@ -7,7 +7,7 @@ import { H2, P1 } from "./Texts";
 
 const Buy = ({ show, toogleModal }) => {
   return (
-    <Modal id="ModalBuy" show={show} toogleModal={toogleModal}>
+    <Modal id="ModalBuy" show={show} toogleModal={toogleModal} zIndex={1000}>
       <BuyLayout>
         <BuyContainer>
           <div>
