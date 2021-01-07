@@ -117,7 +117,7 @@
     "name": "Set de vasos y jarra Renaware",
     "description": "Garantía de por vida por Renaware. Se puede vender por separado. Vasos 25 c/u y jarra 100.",
     "type": "Cocina",
-    "price": "200",
+    "price": "160",
     "video": false,
     "pictures": {
       "main": "jarravasos",
@@ -174,7 +174,7 @@
     "name": "Potes Renaware",
     "description": "Garantía de por vida por Renaware. Poco uso. Se puede vender por separado. Té 20, azucar 40 y arroz 60",
     "type": "Cocina",
-    "price": "120",
+    "price": "60",
     "video": false,
     "pictures": {
       "main": "potes2",
@@ -216,7 +216,7 @@
     "name": "NUEVOS Cuchillos Renaware ",
     "description": "Garantía de por vida por Renaware. Juego de 6 cuchillos",
     "type": "Cocina",
-    "price": "130",
+    "price": "80",
     "video": false,
     "pictures": {
       "main": "cuchillos",
