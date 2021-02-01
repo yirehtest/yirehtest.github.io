@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Button, Container, Hero } from "react-bulma-components/dist";
 import { H1, CatergoryTitle } from "components/Texts";
@@ -16,10 +16,16 @@ const Sales = ({ products, categories }) => {
     setisModal(!isModal);
   };
 
-  const total = products.reduce(
-    (acc, value) => parseInt(acc.price || acc, 10) + parseInt(value.price, 10)
-  );
-  console.log({ total });
+  useEffect(() => {
+    if (products.length > 0) {
+      const total = products.reduce(
+        (acc, value) =>
+          parseInt(acc.price || acc, 10) + parseInt(value.price, 10)
+      );
+      console.log({ total });
+    }
+  }, [products, products.length]);
+
   const filteredCategories = categories.map((category) => {
     const filtered = products.filter((product) => product.type === category);
     return filtered;

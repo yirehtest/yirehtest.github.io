@@ -167,7 +167,7 @@
     },
     "condition": "Usado",
     "availability": false,
-    "metadata": { "comprador": "Yenny zerpa", "status": "apartado" }
+    "metadata": { "comprador": "Yenny zerpa", "status": "pagado" }
   },
   {
     "id": 12,
@@ -181,7 +181,12 @@
       "extras": ["potes"]
     },
     "condition": "Usado",
-    "availability": true
+    "availability": false,
+    "metadata": {
+      "comprador": "Angelica Cabeza",
+      "status": "pagado",
+      "lugar": "mercado libre"
+    }
   },
   {
     "id": 13,
