@@ -412,5 +412,33 @@
     },
     "condition": "Usado",
     "availability": true
+  },
+  {
+    "id": 37,
+    "name": "Teclado en español Lenovo USB",
+    "description": "Marca Lenovo.",
+    "type": "Electrónicos",
+    "price": "5",
+    "video": false,
+    "pictures": {
+      "main": "spanishKeyboard",
+      "extras": [""]
+    },
+    "condition": "Nuevo",
+    "availability": true
+  },
+  {
+    "id": 38,
+    "name": "Taladro Skil",
+    "description": "Marca Skil, Taladro de Percusion 3/8, reversible,  usado y mechas nuevas incluidas.",
+    "type": "Ferretería",
+    "price": "50",
+    "video": false,
+    "pictures": {
+      "main": "taladro",
+      "extras": [""]
+    },
+    "condition": "Usado",
+    "availability": true
   }
 ]
