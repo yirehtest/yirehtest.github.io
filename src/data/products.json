@@ -1,19 +1,5 @@
 [
   {
-    "id": 0,
-    "name": "Procesador de alimentos",
-    "description": "Procesador de alimentos con poco uso, rayador y picador. Video de referencia.",
-    "type": "Electrodomésticos",
-    "price": "15",
-    "video": "https://www.youtube.com/watch?v=qS7jwpIPmqk&ab_channel=Davehalverson",
-    "pictures": {
-      "main": "procesador_alimentos",
-      "extras": ["", ""]
-    },
-    "condition": "Usado",
-    "availability": true
-  },
-  {
     "id": 1,
     "name": "Rebanadora",
     "description": "Rebanadora de embutidos marca waring pro.",
@@ -23,20 +9,6 @@
     "pictures": {
       "main": "rebanadora",
       "extras": ["rebanadora2"]
-    },
-    "condition": "Nuevo",
-    "availability": true
-  },
-  {
-    "id": 2,
-    "name": "NUEVA!!! Nevera Haier",
-    "description": "Nuevo en su caja. Modelo HRF 339 de 12 pies cúbicos.",
-    "type": "Electrodomésticos",
-    "price": "400",
-    "video": false,
-    "pictures": {
-      "main": "nevera",
-      "extras": ["nevera2"]
     },
     "condition": "Nuevo",
     "availability": true
@@ -99,20 +71,6 @@
     "availability": true
   },
   {
-    "id": 7,
-    "name": "Tobillera de rehabilitación",
-    "description": "Poco uso",
-    "type": "Equipos médicos",
-    "price": "15",
-    "video": false,
-    "pictures": {
-      "main": "tobillera",
-      "extras": ["", ""]
-    },
-    "condition": "Usado",
-    "availability": true
-  },
-  {
     "id": 8,
     "name": "Set de vasos y jarra Renaware",
     "description": "Garantía de por vida por Renaware. Se puede vender por separado. Vasos 25 c/u y jarra 100.",
@@ -123,12 +81,12 @@
       "main": "jarravasos",
       "extras": ["", ""]
     },
-    "condition": "Usado",
+    "condition": "Nuevo",
     "availability": true
   },
   {
     "id": 9,
-    "name": "Abre lata eléctrico",
+    "name": "Abre lata eléctrico Oster",
     "description": "Marca Oster. Poco uso.",
     "type": "Electrodomésticos",
     "price": "20",
@@ -142,7 +100,7 @@
   },
   {
     "id": 10,
-    "name": "Tostadora de pan",
+    "name": "Tostadora de pan Black&decker",
     "description": "Marca Black&decker. Poco uso.",
     "type": "Electrodomésticos",
     "price": "25",
@@ -225,20 +183,6 @@
     "video": false,
     "pictures": {
       "main": "cuchillos",
-      "extras": [""]
-    },
-    "condition": "Nuevo",
-    "availability": true
-  },
-  {
-    "id": 16,
-    "name": "NUEVA!!! Bandeja",
-    "description": "Bandeja de melanina resistente",
-    "type": "Cocina",
-    "price": "10",
-    "video": false,
-    "pictures": {
-      "main": "bandeja",
       "extras": [""]
     },
     "condition": "Nuevo",
@@ -329,20 +273,6 @@
     "availability": true
   },
   {
-    "id": 23,
-    "name": "Juego de te",
-    "description": "Tres piezas de cerámica fina.",
-    "type": "Cocina",
-    "price": "20",
-    "video": false,
-    "pictures": {
-      "main": "juegote",
-      "extras": [""]
-    },
-    "condition": "Usado",
-    "availability": true
-  },
-  {
     "id": 24,
     "name": "NUEVO!!! Rodillo giratorio",
     "description": "Rodillo de madera liviano y cómodo. ",
@@ -356,20 +286,6 @@
     "condition": "Nuevo",
     "availability": false,
     "metadata": { "comprador": "Carolina Valera", "status": "pagado" }
-  },
-  {
-    "id": 24,
-    "name": "NUEVO!!! Set de tomar el té",
-    "description": "Muy económico.",
-    "type": "Cocina",
-    "price": "3",
-    "video": false,
-    "pictures": {
-      "main": "juegotepirata",
-      "extras": [""]
-    },
-    "condition": "Nuevo",
-    "availability": true
   },
   {
     "id": 25,
@@ -428,34 +344,6 @@
     "availability": true
   },
   {
-    "id": 29,
-    "name": "NUEVAS!!! Juego de paletas de cocina",
-    "description": "Acero inoxidable.",
-    "type": "Cocina",
-    "price": "15",
-    "video": false,
-    "pictures": {
-      "main": "paletasacero",
-      "extras": [""]
-    },
-    "condition": "Nuevo",
-    "availability": true
-  },
-  {
-    "id": 30,
-    "name": "NUEVAS!!! Juego de paletas de cocina",
-    "description": "Material melanina.",
-    "type": "Cocina",
-    "price": "6",
-    "video": false,
-    "pictures": {
-      "main": "paletas",
-      "extras": [""]
-    },
-    "condition": "Nuevo",
-    "availability": true
-  },
-  {
     "id": 31,
     "name": "NUEVO!!! Cortador para pizza",
     "description": "Nuevo, muy buen precio.",
@@ -470,22 +358,8 @@
     "availability": true
   },
   {
-    "id": 32,
-    "name": "NUEVOS!!! Salero y pimentero",
-    "description": "Muy buen precio.",
-    "type": "Cocina",
-    "price": "8",
-    "video": false,
-    "pictures": {
-      "main": "salero",
-      "extras": [""]
-    },
-    "condition": "Nuevo",
-    "availability": true
-  },
-  {
     "id": 33,
-    "name": "Secador de pelo",
+    "name": "Secador de pelo Oster",
     "description": "En perfecto estado.",
     "type": "Electrodomésticos",
     "price": "25",
