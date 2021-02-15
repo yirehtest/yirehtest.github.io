@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87999f2e82d4d8244fb6b49389c3ba55",
+    "revision": "c00381a985035ca3c750f4e9b26a2556",
     "url": "/index.html"
   },
   {
-    "revision": "d0490e3d66348848f316",
+    "revision": "ea47e31198225c5c3305",
     "url": "/static/css/2.0111e717.chunk.css"
   },
   {
-    "revision": "2d059aa85920887cfd6f",
+    "revision": "e267cab150128b630c6a",
     "url": "/static/css/main.9f3498cf.chunk.css"
   },
   {
-    "revision": "d0490e3d66348848f316",
-    "url": "/static/js/2.ff6e43ff.chunk.js"
+    "revision": "ea47e31198225c5c3305",
+    "url": "/static/js/2.d7961a3d.chunk.js"
   },
   {
     "revision": "6c5833db93cd7c0f813219a8bc75480b",
-    "url": "/static/js/2.ff6e43ff.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d7961a3d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d059aa85920887cfd6f",
-    "url": "/static/js/main.cad77981.chunk.js"
+    "revision": "e267cab150128b630c6a",
+    "url": "/static/js/main.f52ea034.chunk.js"
   },
   {
     "revision": "f58efaeb893aca0e274c",
@@ -250,6 +250,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5ac2a3cb7bc71f147d9b41bb816a4b2a",
     "url": "/static/media/secador.5ac2a3cb.jpg"
+  },
+  {
+    "revision": "c1f089600b3182515a44ff9734a9b846",
+    "url": "/static/media/spanishKeyboard.c1f08960.jpg"
+  },
+  {
+    "revision": "441fc7214123090b185dc28b43d4611f",
+    "url": "/static/media/taladro.441fc721.jpg"
   },
   {
     "revision": "b23fd00db9d19df391c1a0d1f74f4ca4",

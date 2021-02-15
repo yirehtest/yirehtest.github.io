@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.9f3498cf.chunk.css",
-    "main.js": "/static/js/main.cad77981.chunk.js",
-    "main.js.map": "/static/js/main.cad77981.chunk.js.map",
+    "main.js": "/static/js/main.f52ea034.chunk.js",
+    "main.js.map": "/static/js/main.f52ea034.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8e78efc8.js",
     "runtime-main.js.map": "/static/js/runtime-main.8e78efc8.js.map",
     "static/css/2.0111e717.chunk.css": "/static/css/2.0111e717.chunk.css",
-    "static/js/2.ff6e43ff.chunk.js": "/static/js/2.ff6e43ff.chunk.js",
-    "static/js/2.ff6e43ff.chunk.js.map": "/static/js/2.ff6e43ff.chunk.js.map",
+    "static/js/2.d7961a3d.chunk.js": "/static/js/2.d7961a3d.chunk.js",
+    "static/js/2.d7961a3d.chunk.js.map": "/static/js/2.d7961a3d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.490bc333a773a7e3ed2cf47c67bd10d6.js": "/precache-manifest.490bc333a773a7e3ed2cf47c67bd10d6.js",
+    "precache-manifest.16a73c53d2d087defd5b77471b606310.js": "/precache-manifest.16a73c53d2d087defd5b77471b606310.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0111e717.chunk.css.map": "/static/css/2.0111e717.chunk.css.map",
     "static/css/main.9f3498cf.chunk.css.map": "/static/css/main.9f3498cf.chunk.css.map",
-    "static/js/2.ff6e43ff.chunk.js.LICENSE.txt": "/static/js/2.ff6e43ff.chunk.js.LICENSE.txt",
+    "static/js/2.d7961a3d.chunk.js.LICENSE.txt": "/static/js/2.d7961a3d.chunk.js.LICENSE.txt",
     "static/media/abrelata.jpg": "/static/media/abrelata.eee0a59b.jpg",
     "static/media/andadera.jpg": "/static/media/andadera.22ae8fc3.jpg",
     "static/media/arrocera.jpg": "/static/media/arrocera.3c53d535.jpg",
@@ -70,6 +70,8 @@
     "static/media/rodillo2.jpg": "/static/media/rodillo2.a937db26.jpg",
     "static/media/salero.jpg": "/static/media/salero.81a6d4c0.jpg",
     "static/media/secador.jpg": "/static/media/secador.5ac2a3cb.jpg",
+    "static/media/spanishKeyboard.jpg": "/static/media/spanishKeyboard.c1f08960.jpg",
+    "static/media/taladro.jpg": "/static/media/taladro.441fc721.jpg",
     "static/media/tirejas.jpg": "/static/media/tirejas.b23fd00d.jpg",
     "static/media/tobillera.jpg": "/static/media/tobillera.c53c7c22.jpg",
     "static/media/tostadora.jpg": "/static/media/tostadora.fa3b332c.jpg",
@@ -78,8 +80,8 @@
   "entrypoints": [
     "static/js/runtime-main.8e78efc8.js",
     "static/css/2.0111e717.chunk.css",
-    "static/js/2.ff6e43ff.chunk.js",
+    "static/js/2.d7961a3d.chunk.js",
     "static/css/main.9f3498cf.chunk.css",
-    "static/js/main.cad77981.chunk.js"
+    "static/js/main.f52ea034.chunk.js"
   ]
 }
